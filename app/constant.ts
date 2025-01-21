@@ -749,6 +749,3 @@ export const internalAllowedWebDavEndpoints = [
 ];
 
 export const DEFAULT_GA_ID = "";
-
-export const SAAS_CHAT_URL = "";
-export const SAAS_CHAT_UTM_URL = "";

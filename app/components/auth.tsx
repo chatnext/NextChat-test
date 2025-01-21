@@ -2,7 +2,7 @@ import styles from "./auth.module.scss";
 import { IconButton } from "./button";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Path, SAAS_CHAT_URL } from "../constant";
+import { Path } from "../constant";
 import { useAccessStore } from "../store";
 import Locale from "../locales";
 import BotIcon from "../icons/bot.svg";
@@ -22,7 +22,6 @@ export function AuthPage() {
   const goChat = () => navigate(Path.Chat);
   const goSaas = () => {
     trackAuthorizationPageButtonToCPaymentClick();
-    window.location.href = SAAS_CHAT_URL;
   };
 
   const resetAccessCode = () => {
