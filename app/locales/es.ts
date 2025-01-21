@@ -28,7 +28,7 @@ const es: PartialLocaleType = {
     SaasTips:
       "La configuración es demasiado complicada, quiero usarlo de inmediato",
     TopTips:
-      "🥳 Oferta de lanzamiento de NextChat AI, desbloquea OpenAI o1, GPT-4o, Claude-3.5 y los últimos grandes modelos",
+      "🥳 Oferta de lanzamiento de 大模型聚合系统 AI, desbloquea OpenAI o1, GPT-4o, Claude-3.5 y los últimos grandes modelos",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} conversaciones`,
@@ -306,10 +306,10 @@ const es: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "Use NextChat AI",
+        Title: "Use 大模型聚合系统 AI",
         Label: "(The most cost-effective solution)",
         SubTitle:
-          "Officially maintained by NextChat, zero configuration ready to use, supports the latest large models like OpenAI o1, GPT-4o, and Claude-3.5",
+          "Officially maintained by 大模型聚合系统, zero configuration ready to use, supports the latest large models like OpenAI o1, GPT-4o, and Claude-3.5",
         ChatNow: "Chat Now",
       },
 

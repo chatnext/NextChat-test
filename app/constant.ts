@@ -1,7 +1,7 @@
 export const OWNER = "ChatGPTNextWeb";
 export const REPO = "ChatGPT-Next-Web";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
-export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/NextChat-Awesome-Plugins`;
+export const PLUGINS_REPO_URL = `https://github.com/${OWNER}/大模型聚合系统-Awesome-Plugins`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const RELEASE_URL = `${REPO_URL}/releases`;
@@ -343,7 +343,7 @@ You are an AI assistant with access to system tools. Your role is to help users 
   "params": {
     "name": "write_file",
     "arguments": {
-      "path": "/Users/river/dev/nextchat/test/joke.txt",
+      "path": "/Users/river/dev/大模型聚合系统/test/joke.txt",
       "content": "为什么数学书总是感到忧伤？因为它有太多的问题。"
     }
   }
@@ -356,7 +356,7 @@ You are an AI assistant with access to system tools. Your role is to help users 
    {
       "method": "write_file",
       "params": {
-        "path": "NextChat_Information.txt",
+        "path": "大模型聚合系统_Information.txt",
         "content": "1"
     }
    }
@@ -748,7 +748,7 @@ export const internalAllowedWebDavEndpoints = [
   "https://app.koofr.net/dav/Koofr",
 ];
 
-export const DEFAULT_GA_ID = "G-89WN60ZK2E";
+export const DEFAULT_GA_ID = "";
 
-export const SAAS_CHAT_URL = "https://nextchat.dev/chat";
-export const SAAS_CHAT_UTM_URL = "https://nextchat.dev/chat?utm=github";
+export const SAAS_CHAT_URL = "";
+export const SAAS_CHAT_UTM_URL = "";
