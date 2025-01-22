@@ -633,9 +633,6 @@ const cn = {
   Discovery: {
     Name: "发现",
   },
-  Mcp: {
-    Name: "MCP",
-  },
   FineTuned: {
     Sysmessage: "你是一个助手",
   },
